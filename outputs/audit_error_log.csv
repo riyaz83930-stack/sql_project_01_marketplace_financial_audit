@@ -1,0 +1,25 @@
+phase,check_name,error
+Phase 2,Orphan customer_id in orders,"(mysql.connector.errors.ProgrammingError) 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+Phase 2,Orphan order_id in order_items,"(mysql.connector.errors.ProgrammingError) 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+Phase 2,Orphan product_id in order_items,"(mysql.connector.errors.ProgrammingError) 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+Phase 2,Orphan order_id in payments,"(mysql.connector.errors.ProgrammingError) 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+Phase 2,Orphan vendor_id in vendor_payouts,"(mysql.connector.errors.ProgrammingError) 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+Phase 3,Orders before customer signup,"(mysql.connector.errors.ProgrammingError) 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+Phase 3,Payments before corresponding order,"(mysql.connector.errors.ProgrammingError) 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+Phase 3,Vendor payouts before vendor signup,"(mysql.connector.errors.ProgrammingError) 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+Phase 4,Completed order payment mismatch,"(mysql.connector.errors.ProgrammingError) 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+Phase 4,Orders without payment,"(mysql.connector.errors.ProgrammingError) 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+Phase 4,Payments without corresponding order,"(mysql.connector.errors.ProgrammingError) 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+Phase 4,Duplicate payments,"(mysql.connector.errors.ProgrammingError) 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+(Background on this error at: https://sqlalche.me/e/20/f405)"

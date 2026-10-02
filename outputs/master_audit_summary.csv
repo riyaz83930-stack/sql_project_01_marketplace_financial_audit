@@ -1,0 +1,13 @@
+phase,check_name,affected_rows,total_rows,affected_percent,financial_impact
+Phase 2,Orphan customer_id in orders,78,2500,3.12,
+Phase 2,Orphan order_id in order_items,116,5000,2.32,
+Phase 2,Orphan product_id in order_items,69,5000,1.38,
+Phase 2,Orphan order_id in payments,40,2301,1.74,
+Phase 2,Orphan vendor_id in vendor_payouts,4,154,2.6,
+Phase 3,Orders before customer signup,77,2500,3.08,
+Phase 3,Payments before corresponding order,44,2301,1.91,
+Phase 3,Vendor payouts before vendor signup,27,154,17.53,
+Phase 4,Completed order payment mismatch,93,1463,6.36,387305.0
+Phase 4,Orders without payment,294,2500,11.76,4649957.0
+Phase 4,Payments without corresponding order,40,2301,1.74,54171.0
+Phase 4,Duplicate payments,55,2301,2.39,
